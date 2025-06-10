@@ -45,3 +45,6 @@ Displays custom error messages like:
 
 ⏳ 5. Loading State
 Shows a “Loading…” indicator while fetching data.
+
+![image](https://github.com/user-attachments/assets/4847e514-2cfc-4cf6-bc59-67912f3f5d63)
+
