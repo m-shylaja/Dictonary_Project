@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Dictionary</title>
+  <link rel="stylesheet" href="dictstyle.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>English Dictionary</h1>
+      <input type="text" id="searchInput" placeholder="Search a word" autofocus>
+      <button id="searchBtn">Search</button>
+      <p id="errorMessage" ></p>
+      <div id="loader" class="hidden">Loading...</div>
+
+      <div id="result" class="hidden">
+        <p><strong>Word Title:</strong> <span id="word"></span></p>
+        <p><strong>Phonetic:</strong> <span id="phonetic"></span></p>
+        <p><strong>Part of Speech:</strong> <span id="partOfSpeech"></span></p>
+        <p><strong>Meaning:</strong> <span id="definition"></span></p>
+        <p><strong>Example:</strong> <span id="example"></span></p>
+        <audio id="audio" controls class="hidden"></audio>
+        <button id="playAudioBtn" class="hidden">🔊 Play</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="dictProject.js"></script>
+</body>
+
+</html>
